@@ -5,7 +5,7 @@
 	<br>
 	<div class="row">
 		<div class="col-md-3">
- 			<img width="150" height="150" class="posts-thumb" src="<?php echo site_url(); ?>assets/images/posts/<?php echo $post['post_image'];?>">
+ 			<img width="102%" height="32%" class="posts-thumb" src="<?php echo site_url(); ?>assets/images/posts/<?php echo $post['post_image'];?>">
 		</div>
 		<div class="col-md-9">
 			<small class="post-date">Posted on: <?php echo $post['created_at']; ?> in <strong><?php echo $post['name']; ?></strong></small><br>
