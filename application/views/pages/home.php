@@ -21,10 +21,7 @@
     <p>Work Doc</p>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-video-camera w3-xxlarge"></i>
-    <p>L&S Meet</p>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-calendar w3-xxlarge"></i>
-    <p>Callender</p>
+    
     
 </div>
 
