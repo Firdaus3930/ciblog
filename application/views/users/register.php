@@ -1,4 +1,5 @@
 <h2><?= $title; ?></h2>
+<body style="background-color:Aquamarine;">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <?php echo validation_errors(); ?>
 

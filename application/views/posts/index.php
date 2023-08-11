@@ -1,5 +1,5 @@
 <h2><?= $title ?></h2>
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body style="background-color:Aquamarine;">
 <?php foreach ($posts as $post) : ?> 
 	<h3><?php echo $post['title']; ?></h3>
 	<br>

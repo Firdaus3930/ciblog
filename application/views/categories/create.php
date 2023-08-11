@@ -1,5 +1,5 @@
 <h2><?=$title ;?></h2>
-
+<body style="background-color:Aquamarine;">
 <?php echo form_open_multipart('categories/create'); ?>
 	<div class="form-group">
 		<label>Name</label>

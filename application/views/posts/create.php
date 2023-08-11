@@ -1,5 +1,5 @@
 <h2><?= $title; ?></h2>
-
+<body style="background-color:Aquamarine;">
 <?php echo validation_errors(); ?>
 
 <?php echo form_open_multipart('posts/create'); ?>

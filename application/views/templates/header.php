@@ -23,6 +23,10 @@
     <li><a href="<?php echo base_url(); ?>users/register">Register</a></li>
   <?php endif; ?>
   <?php if($this->session->userdata('logged_in')) : ?>
+    <li><a href="<?php echo base_url(); ?>notification">Notification</a></li>
+    <li><a href="<?php echo base_url(); ?>classes">Classes</a></li>
+    <li><a href="<?php echo base_url(); ?>chat">S&L Chat</a></li>
+    <li><a href="<?php echo base_url(); ?>workdoc">Workdoc</a></li>
     <li><a href="<?php echo base_url(); ?>meetings">L&SMeet</a></li>
     <li><a href="<?php echo base_url(); ?>calendar">Calendar</a></li>
     <li><a href="<?php echo base_url(); ?>posts/create">Create Post</a></li>

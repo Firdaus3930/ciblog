@@ -1,6 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+$route['notification'] = 'notification/index';
+
+$route['classes'] = 'classes/index';
+
+$route['chat'] = 'chat/index';
+
+$route['workdoc'] = 'workdoc/index';
+
 $route['meetings'] = 'meetings/index';
 
 $route['calendar'] = 'calendar/index';
