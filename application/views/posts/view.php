@@ -1,5 +1,5 @@
 <h2><?php echo $post['title']; ?></h2>
-<body style="background-color:Aquamarine;">
+<body style="background-color:00DE9E;">
 <small class="post-date">Posted on: <?php echo $post['created_at']; ?></small><br><br>
 <div class="post-body">
 	<?php echo $post['body']; ?>

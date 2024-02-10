@@ -44,9 +44,9 @@
 				// Upload Image
 				$config['upload_path'] = './assets/images/posts';
 				$config['allowed_types'] = 'jpg|png';
-				$config['max_size'] = '2048';
-				$config['max_width'] = '2000';
-				$config['max_height'] = '2000';
+				$config['max_size'] = '3000';
+				$config['max_width'] = '3000';
+				$config['max_height'] = '3000';
 				
 				$this->load->library('upload', $config);
 

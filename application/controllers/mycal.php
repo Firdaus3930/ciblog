@@ -3,15 +3,11 @@ class Mycal extends CI_Controller{
     
     public function display($year = null, $month = null) {
 
-        $conf = array(
-            'start_day' => 'sunday',
-            'show_next_prev' => true,
-            'next_prev_url' => base_url() . 'mycal/display'
-        );
+        $this->load->model('Mycal_model');
 
-        $this->load->library('calendar', $conf);
+        $data['calendar'] = $this->Mycal_model->generate($year, $month);
 
-        echo $this->calendar->generate($year, $month);
+        $this->load->view('mycal', $data);
 
     }
 }

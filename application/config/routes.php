@@ -1,16 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$route['notification'] = 'notification/index';
-
-$route['classes'] = 'classes/index';
-
-$route['chat'] = 'chat/index';
-
-$route['workdoc'] = 'workdoc/index';
-
-$route['meetings'] = 'meetings/index';
-
 $route['posts/create'] = 'posts/create';
 $route['posts/update'] = 'posts/update';
 $route['posts/(:any)'] = 'posts/view/$1';

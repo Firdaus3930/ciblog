@@ -1,5 +1,5 @@
 <?php echo form_open('users/login'); ?>
-<body style="background-color:Aquamarine;">
+<body style="background-color:00DE9E;">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <div class="row">
 	<div class="col-md-4 col-md-offset-4">
