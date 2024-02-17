@@ -44,15 +44,16 @@
 				// Upload Image
 				$config['upload_path'] = './assets/images/posts';
 				$config['allowed_types'] = 'jpg|png';
-				$config['max_size'] = '3000';
-				$config['max_width'] = '3000';
-				$config['max_height'] = '3000';
+				$config['max_size'] = '5000';
+				$config['max_width'] = '5000';
+				$config['max_height'] = '5000';
 				
 				$this->load->library('upload', $config);
 
-				if(!$this->upload->do_upload()){
+				if(!$this->upload->do_upload('userfile')){
 					$errors = array('error' => $this->upload->display_errors());
-					$post_image = 'noimage.jpg';
+					$this->load->view('posts/view', $data);
+					//$post_image = 'noimage.jpg';
 				} else {
 					$data = array('upload_data' => $this->upload->data());
 					$post_image = $_FILES['userfile']['name'];
