@@ -1,7 +1,24 @@
 <h2><?= $title ?></h2>
-<body style="background-color:00DE9E;">
+<head>
+<style>
+body {
+  background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709164800&semt=ais');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
 <?php foreach ($posts as $post) : ?> 
 	<h3><?php echo $post['title']; ?></h3>
+	<html>
+<head>
+<style>
+	.post-thumb{
+	width:100%;
+}
+</style>
 	<br>
 	<div class="row">
 		<div class="col-md-3">

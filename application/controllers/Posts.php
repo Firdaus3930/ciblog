@@ -43,17 +43,16 @@
 			} else {
 				// Upload Image
 				$config['upload_path'] = './assets/images/posts';
-				$config['allowed_types'] = 'jpg|png';
-				$config['max_size'] = '5000';
-				$config['max_width'] = '5000';
-				$config['max_height'] = '5000';
+				$config['allowed_types'] = 'jpg|png|jpeg';
+				$config['max_size'] = '10000';
+				$config['max_width'] = '10000';
+				$config['max_height'] = '10000';
 				
 				$this->load->library('upload', $config);
 
-				if(!$this->upload->do_upload('userfile')){
+				if(!$this->upload->do_upload()){
 					$errors = array('error' => $this->upload->display_errors());
-					$this->load->view('posts/view', $data);
-					//$post_image = 'noimage.jpg';
+					$post_image = 'noimage.jpg';
 				} else {
 					$data = array('upload_data' => $this->upload->data());
 					$post_image = $_FILES['userfile']['name'];

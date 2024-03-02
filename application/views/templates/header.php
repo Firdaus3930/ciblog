@@ -6,16 +6,16 @@
     <script src="http://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="<?php echo base_url(); ?>">Student Repository</a>
+      <a class="navbar-brand"; ?>Student Repository</a>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="<?php echo base_url(); ?>">Home</a></li>
-      <li><a href="<?php echo base_url(); ?>about">About</a></li>
+      <li><a href="<?php echo base_url(); ?>about">About this System</a></li>
       <li><a href="<?php echo base_url(); ?>posts">Latest Post</a></li>
-      <li><a href="<?php echo base_url(); ?>categories">Categories</a></li>
+      <li><a href="<?php echo base_url(); ?>categories">List of Students</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
   <?php if(!$this->session->userdata('logged_in')) : ?>
@@ -23,8 +23,8 @@
     <li><a href="<?php echo base_url(); ?>users/register">Register</a></li>
   <?php endif; ?>
   <?php if($this->session->userdata('logged_in')) : ?>
-    <li><a href="<?php echo base_url(); ?>posts/create">Create Post</a></li>
-    <li><a href="<?php echo base_url(); ?>categories/create">Create Category</a></li>
+    <li><a href="<?php echo base_url(); ?>posts/create">Create Your Post</a></li>
+    <li><a href="<?php echo base_url(); ?>categories/create">Create Repository</a></li>
     <li><a href="<?php echo base_url(); ?>users/logout">Logout</a></li>
   <?php endif; ?>
     </ul>
@@ -63,4 +63,8 @@
 
   <?php if($this->session->flashdata('user_loggedin')): ?>
     <?php echo '<p class="alert alert-success">'.$this->session->flashdata('user_loggedin').'</p>'; ?>
+  <?php endif; ?>
+
+  <?php if($this->session->flashdata('category_deleted')): ?>
+    <?php echo '<p class="alert alert-success">'.$this->session->flashdata('category_deleted').'</p>'; ?>
   <?php endif; ?>
