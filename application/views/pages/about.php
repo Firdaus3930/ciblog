@@ -39,30 +39,37 @@ body {
   background-color: white;
   padding: 20px;
 }
+
+div {
+  text-align: justify;
+}
+
 </style>
 </head>
 <body>
 <div class="row">
   <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <img src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" alt="Trulli" style="width:300px"style="height:300px;">
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <img src="pic_trulli.jpg" alt="Trulli" style="height:300px;"><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
+    <h3>MUHAMMAD FIRDAUS BIN NOORHISAM</h3>
+    <img src="https://scontent.fkul16-2.fna.fbcdn.net/v/t39.30808-6/384697308_122122491014030756_3576923374593512990_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=jjNeYfUBVpoAX8R5z_m&_nc_ht=scontent.fkul16-2.fna&oh=00_AfBQSJQk5Mw6SBMhF9DDcVl40ZB3W3JJS9ag9GftguaGrA&oe=65EE8878" alt="Trulli" style="width:300px"style="height:300px;">
+    <br>
+    <br>
+    <h4>Hi im a Malaysian Skills Diploma (DKM) student at Breyer College KL, taking the Computer System Administration Level 4 course.I developed this Student Repository System, is to create a special storage system for use by students who are undergoing or will undergo industrial training.</h4>
+    <br>
+    <h4><b>Email   : </b></h4>
+    <h4>mohdfirdausnoorhisam@gmail.com</h4>
+    <h4><b>Contact : </b></h4>
+    <h4>018-375-4712</h4>
   </div>
   <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h2>Objective of this System</h2>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
+    <h4>• Make it easier for students to save pictures.</h4>
+    <h4>• Can create a new storage system.</h4>
+    <h4>• Store student's photos and data permanently.</h4>
+    <h4>• Make it easier for lecturers to see the development and daily work of students.</h4>
+    <br>
+    <h2>How to use this System?</h2>
+    <h3>please refer to the tutorial picture below.  ↓ <h3> 
     <div class="fakeimg" style="height:200px;">Image</div>
     <p>Some text..</p>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>

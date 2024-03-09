@@ -1,4 +1,4 @@
-<h2><?= $title; ?></h2>
+<h2>Register</h2>
 <style>
 body {
   background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709164800&semt=ais');

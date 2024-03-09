@@ -22,7 +22,7 @@ body {
     <textarea id="editor1" class="form-control" name="body" placeholder="Add Body"></textarea>
   </div>
   <div calss="form-group">
-      <label>Category</label>
+      <label>Repository Name</label>
       <select name="category_id" class="form-control">
         <?php foreach($categories as $category): ?>
           <option value="<?php echo $category['id']; ?>"><?php echo $category['name']; ?></option>
